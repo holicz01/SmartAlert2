@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_margin_padding_small">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/placeholder"/>
+
+            <TextView
+                android:text="YEORYIOS &#10; CHAMPILOMATIS &#10; Emergency Wardens"
+                android:gravity="center"
+                android:textColor="@color/color_front_white"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:background="@color/color_theme_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+
+                <Button
+                    android:id="@+id/a1"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/placeholder"/>
+
+            <TextView
+                android:text="GARRY &#10; ATKINSON &#10; Emergency Wardens"
+                android:gravity="center"
+                android:textColor="@color/color_front_white"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:background="@color/color_theme_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+
+                <Button
+                    android:id="@+id/a2"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_margin_padding_small">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/placeholder"/>
+
+            <TextView
+                android:text="COLETTE &#10; JAVET &#10; Emergency Wardens"
+                android:gravity="center"
+                android:textColor="@color/color_front_white"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:background="@color/color_theme_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+
+                <Button
+                    android:id="@+id/a3"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/placeholder"/>
+
+            <TextView
+                android:text="ALAN &#10; WILCOX &#10; Emergency Wardens"
+                android:gravity="center"
+                android:textColor="@color/color_front_white"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:background="@color/color_theme_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp" />
+
+                <Button
+                    android:id="@+id/a4"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_medium"
+                android:layout_marginRight="@dimen/default_margin_padding_medium"
+                android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="CLINTON &#10; GAYTON &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a1"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="MICHAEL &#10; KATH &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a2"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/default_margin_padding_medium"
+                android:layout_marginRight="@dimen/default_margin_padding_medium"
+                android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="STEVEN &#10; NEWALL &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a3"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="ANTHONY &#10; HOWE &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a4"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_medium"
+                android:layout_marginRight="@dimen/default_margin_padding_medium"
+                android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="LUCAS &#10; BRAND &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a1"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="VAUGHAN &#10; WEBSTER &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a2"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/default_margin_padding_medium"
+                android:layout_marginRight="@dimen/default_margin_padding_medium"
+                android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="GARRY &#10; LEES &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a3"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="ANDREW &#10; HOGARTH &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a4"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/default_margin_padding_medium"
+                android:layout_marginRight="@dimen/default_margin_padding_medium"
+                android:layout_marginLeft="@dimen/default_margin_padding_medium">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="ALAN &#10; POLLOCK &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a3"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_padding_small">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/placeholder"/>
+
+                    <TextView
+                        android:text="GERARD &#10; TEARLE &#10; Emergency Wardens"
+                        android:gravity="center"
+                        android:textColor="@color/color_front_white"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:background="@color/color_theme_red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp" />
+
+                        <Button
+                            android:id="@+id/a4"
+                            android:layout_weight="1"
+                            android:background="@drawable/icon_letter"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+

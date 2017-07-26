@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/color_front_black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:text="Stop! DO I NEED A JSEA FOR THIS JOB? " />
+
+    <TextView
+        android:textColor="@color/color_front_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:text="- Answer all the following questions to determine if a JSEA is Required.
+- If any questions are answered with NO, a JSEA must be Developed
+- If you’re NOT Competent and not Authorized to undertake the task, then do not undertake the TASK! " />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:background="@color/color_theme_red"
+        android:text="Start"
+        android:textColor="@color/color_front_white" />
+
+</LinearLayout>

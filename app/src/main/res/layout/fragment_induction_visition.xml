@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/a0"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="@drawable/icon_plus"/>
+
+        <LinearLayout
+            android:id="@+id/a1"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="@drawable/david"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="David Allix &#10;CEO"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.73" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/a2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/warit"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Warit Keawpitak &#10;Developer"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/a3"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/nita"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Nita Allix &#10;Manager"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.73" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/a4"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon_developer"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Brent Joyce &#10;Engineer"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/a5"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ubaldo"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Ubaldo Donaltini &#10;Marketing"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.73" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
